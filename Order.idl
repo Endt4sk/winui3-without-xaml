@@ -1,0 +1,10 @@
+namespace Fake
+{
+    [bindable]
+    runtimeclass Order : Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        Order();
+        
+        String Amount { get; set; };
+    };
+}
